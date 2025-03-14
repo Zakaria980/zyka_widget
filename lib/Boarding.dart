@@ -1,4 +1,6 @@
+import 'package:fiqhanflutter/page1.dart';
 import 'package:flutter/material.dart';
+import 'package:fiqhanflutter/page2.dart';
 
 class Boarding extends StatelessWidget {
   @override
@@ -83,7 +85,10 @@ class boarding extends StatelessWidget {
             SizedBox(height: 30.0),
             ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/boarding');
+                Navigator.push(
+                  context, 
+                  MaterialPageRoute(builder: (context) => HomeScreen()),
+                );
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.black,

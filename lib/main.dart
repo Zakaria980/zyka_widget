@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_108/Boarding.dart';
-import 'package:flutter_application_108/page1.dart';
-import 'package:flutter_application_108/page2.dart';
+import 'package:fiqhanflutter/Boarding.dart';
+import 'package:fiqhanflutter/page1.dart';
+import 'package:fiqhanflutter/page2.dart';
 void main() {
   runApp(const MyApp());
 }
